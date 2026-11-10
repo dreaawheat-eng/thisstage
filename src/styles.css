@@ -1,0 +1,130 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #f7f7f5;
+  --color-paper: #ffffff;
+  --color-sand: #efefec;
+  --color-ink: #1c1c1a;
+  --color-muted: #6a6a64;
+  --color-line: #e4e4e0;
+  --color-terra: #1f6a4d;
+  --color-clay: #e4f0e9;
+  --color-butter: #f6e7a8;
+  --color-mist: #d7efe6;
+  --color-apricot: #f3e2cf;
+  --font-sans: "Outfit", "Avenir Next", "Segoe UI", sans-serif;
+  --font-display: "Fraunces", "Iowan Old Style", Palatino, Georgia, serif;
+}
+
+@layer base {
+  html {
+    color-scheme: light;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    background: var(--color-cream);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-terra);
+    outline-offset: 3px;
+  }
+
+  ::selection {
+    background: var(--color-clay);
+    color: var(--color-ink);
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+}
+
+@layer components {
+  .safe-bottom {
+    padding-bottom: max(0.75rem, env(safe-area-inset-bottom));
+  }
+
+  .rail {
+    display: flex;
+    gap: 0.75rem;
+    margin-right: -1.25rem;
+    margin-left: -1.25rem;
+    overflow-x: auto;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+  }
+
+  .rail::-webkit-scrollbar {
+    display: none;
+  }
+
+  .rail > * {
+    flex: 0 0 84%;
+    min-width: 0;
+    scroll-snap-align: start;
+  }
+
+  .rail.tiles > * {
+    flex-basis: 46%;
+  }
+
+  .rail.picks > * {
+    flex-basis: 74%;
+  }
+
+  .deck {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+  }
+
+  .deck::-webkit-scrollbar {
+    display: none;
+  }
+
+  .deck > * {
+    flex: 0 0 100%;
+    min-width: 0;
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+  }
+
+  .hero-wash {
+    background:
+      radial-gradient(90% 70% at 50% 0%, #e5f3ed 0%, transparent 70%),
+      radial-gradient(70% 40% at 100% 10%, #f4f1e8 0%, transparent 55%),
+      var(--color-cream);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

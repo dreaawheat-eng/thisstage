@@ -1,0 +1,103 @@
+import type { StageId } from "@/lib/types";
+
+/** Candid lines from the stage people just left. Editorial, not a user feed and not advice. */
+export const UNTOLD: Record<StageId, string[]> = {
+  p4: [
+    "You can feel completely fine, or completely wrecked, before anyone else can tell. Both are this stage.",
+    "You will photograph the test, zoom in, and still not trust it. That’s the first week, not a glitch.",
+    "The only menu is whatever stays down. Ginger is not required to be a personality.",
+    "Midnight searching will tell you it is fine and also not fine. Closing the tab is a skill.",
+    "Your pants give out before a bump exists. The waistband is an early reporter.",
+  ],
+  p9: [
+    "The “bump” is often bloat, and you will still check it in the mirror.",
+    "A food you loved last month can become the enemy. That’s not a character flaw.",
+    "People say you’re glowing. You are negotiating with a cracker.",
+    "Waistbands quit before the announcement does.",
+    "Naps stop being optional and start being how the day works.",
+  ],
+  p14: [
+    "The first flutter is easy to miss. A lot of people think it’s gas. Sometimes it is gas.",
+    "Energy comes back, and so does the urge to reorganize one drawer at 9 p.m.",
+    "Strangers still can’t tell. Your jeans already filed a complaint.",
+    "You will buy one thing “just in case,” then two more. The drawer is taking notes.",
+    "Someone will quiz your due date. You do not owe them a calendar.",
+  ],
+  p21: [
+    "The baby kicks in meetings and goes still the second someone wants to feel it.",
+    "Side sleeping is a group project between you, a pillow, and gravity.",
+    "You feel one kick and immediately need another. That math is very common.",
+    "Heartburn has opinions. Tomatoes usually lose.",
+    "People reach for the bump. “No thanks” is a full answer.",
+  ],
+  p28: [
+    "“You must be so excited” and “you must be so tired” are the same sentence now.",
+    "Getting off the couch is a three-step plan. Budget for it.",
+    "A tote with a charger and a snack is a bag. The internet wants a binder. The internet is not in labor.",
+    "Practice tightenings show up like a rehearsal you didn’t audition for.",
+    "You will lose a sock and find it in the car seat you already installed.",
+  ],
+  p34: [
+    "Walking into a room and forgetting why is a trimester, not a verdict.",
+    "The baby’s schedule is “party at 2 a.m.” You are the venue.",
+    "Everyone has a birth story. You can nod and not take notes.",
+    "You will pack the bag, unpack it, and repack it because a lip balm felt wrong.",
+    "Nesting is half useful and half reorganizing the spices like they owe you money.",
+  ],
+  p38: [
+    "“Any day now” is not a calendar invite. The baby did not get the memo.",
+    "You will be sure it’s starting. Often it isn’t. Both can share a Tuesday.",
+    "A due date is an estimate with very confident branding.",
+    "The last weeks are a lot of standing in the kitchen with a bowl of cereal.",
+    "“Anything yet?” does not require a reply. Leaving it unread is allowed.",
+  ],
+  b0: [
+    "The days are a loop and the nights don’t have names.",
+    "You might cry because feeding was hard, or because the toast was perfect. Both count.",
+    "The visitor who starts the dishwasher is the one to invite back.",
+    "The outfit you pictured is in the laundry because of something you will not be naming.",
+    "“Sleep when the baby sleeps” was written by someone with no group chat.",
+  ],
+  b2: [
+    "Cluster feeding can take the whole afternoon. That is the stage, not a sign you broke it.",
+    "You will know the hour by which side you used last.",
+    "The fussy evening is loud and famous. It still feels personal at 7 p.m.",
+    "Someone will suggest a schedule. The baby did not read it.",
+    "Eating with one hand becomes a private résumé skill.",
+  ],
+  b6: [
+    "A crying stretch in the second month is common, and it still feels aimed at you.",
+    "One coffee out of the house can feel like a vacation that brought a car seat.",
+    "The first real smile will not repeat on command. They are not negotiating.",
+    "A messy room and a fine baby can exist in the same hour.",
+    "You will ask “is this normal?” A lot of the time the answer is “loud, but yes.”",
+  ],
+  b4m: [
+    "Everything goes in the mouth, including your idea of a clean floor.",
+    "They laugh at nothing and ignore the expensive toy. The wooden spoon wins.",
+    "Rolling one direction and not back is a bit they commit to.",
+    "You can miss the tinier stage and be relieved it’s over, on the same day.",
+    "Drool is a hydration plan you did not approve.",
+  ],
+  b6m: [
+    "Sitting shows up on a random Tuesday, then they tip over and try again.",
+    "They want your plate and refuse the plate you made. This joke runs for years.",
+    "A pouch in the bag will save a store. You will forget the pouch.",
+    "Sleep can get worse the week you mentioned it was good. Don’t mention it.",
+    "Raspberries get blown during the one quiet moment. It feels on purpose.",
+  ],
+  b9: [
+    "They pull up on everything, including the one thing you meant to anchor.",
+    "Cruising the couch is a sport. The trophy is your phone.",
+    "“Not in your mouth” becomes a dialect you speak all day.",
+    "Walking is not a race. A fast crawl is also doing the assignment.",
+    "You baby-proof on Monday. They invent a new hazard by Thursday.",
+  ],
+  b15: [
+    "“No” is a complete sentence, and they use it with confidence you wish you had.",
+    "They copy the one habit you hoped they missed.",
+    "Climbing is not a setting you can pause. It’s the hobby.",
+    "The big feeling ends right after you sit on the floor for it. Usually.",
+    "They want to do it, then want you to do it, then themselves again. That is the activity.",
+  ],
+};
