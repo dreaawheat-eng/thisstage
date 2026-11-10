@@ -2,6 +2,12 @@
 
 Mobile web app for pregnancy through the toddler years. A parent takes a short quiz, and the app stays on the week or age they are in.
 
+This repository is the public handoff. A developer or another tool can clone it, or fetch the raw files below.
+
+- https://github.com/dreaawheat-eng/thisstage
+- https://raw.githubusercontent.com/dreaawheat-eng/thisstage/main/README.md
+- https://raw.githubusercontent.com/dreaawheat-eng/thisstage/main/HANDOFF.md
+
 ## Run
 
 ```bash
@@ -28,5 +34,4 @@ The app itself is `src/components/thisstage/app.tsx`, mounted from `src/routes/i
 
 There is no live retailer API. A product photo ships only when it comes from that exact product’s store page.
 
-The stage video clips (`public/graphics/*.mp4`) are not in this zip. The full package was about 100MB and the download was blocked. Posters (the `.jpg` next to each clip) are included. Ask for the clips separately if you need the hero video.
-
+The stage video clips are not in this repository. They are large files. The notes in `HANDOFF.md` are the source of truth for what is built.

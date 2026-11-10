@@ -2,7 +2,7 @@
 
 Mobile-first web app for pregnancy through toddler. Tagline in product: “Your stage, filtered.” The app matches a parent to the week or age they are in, then shows a short home, shopping, stages, an AI mom, and a parent circle.
 
-This zip is the working app, the product photos and clips, and this note. It is what is built as of November 9, 2026.
+This note is what is built as of November 9, 2026.
 
 ## Run it
 
@@ -149,7 +149,7 @@ Logo: `public/logo.png`.
 - A real affiliate or product API, with an exact product id in and a photo out. Until that exists, add products the way `offers.ts` does.
 - Affiliate tracking on Shop now (Amazon Associates, Target, and the department stores). Links are plain product or search URLs today. Earnings are not wired.
 - Sage is a server function, not a finished clinical product. Keep the “not a clinician” line. Do not diagnose postpartum mood disorders. The after-birth notes can name that the weeks and months after birth are hard, and can point at help. PSI is 1-800-944-4773. Crisis line is 988.
-- Website should match this app. Older website briefs are `ThisStage-brand-brief.docx` and `ThisStage-website-brief.docx` in this zip. The app is the source of truth if they disagree.
+- Website should match this app. The app is the source of truth if an older brief disagrees.
 - Do not publish on `@tanstack/react-start` below `1.168.60`.
 
 ## Files to open first
